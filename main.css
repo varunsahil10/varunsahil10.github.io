@@ -1,0 +1,98 @@
+#header{
+		
+		padding-top: 150px;
+		background-image: url("http://www.planwallpaper.com/static/images/1080p-wallpapers-desktop.jpg");
+		width: 100%;
+		min-height: 680px;
+	}
+#header h1 {
+	font-size: 80px;
+	
+}
+
+#intro {
+	background: #2c3e50;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: white;
+	min-height: 680px;
+} 
+
+#intro p {
+	color: white;
+}
+
+#intro i {
+	color: white;
+	font-size: 20px;
+	padding-right: 8px;
+	vertical-align: middle;
+}
+
+#skills {
+	background: #2c3e50;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: white;
+	
+} 
+
+#skills p {
+	color: white;
+}
+
+#skills i {
+	color: white;
+	font-size: 20px;
+	padding-right: 8px;
+	vertical-align: middle;
+}
+
+body {
+  background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+   
+}
+p{
+	color:grey;
+}
+
+.centered{
+	text-align: center;
+}
+#c {
+	background: #222222;
+	padding-top: 15px;
+	text-align: right;
+}
+
+#c p {
+	color: white
+}
+#contact {
+	background: #2f2f2f;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#contact p {
+	color: white;
+}
+
+#contact h3 {
+	color: white;
+}
+
+
+#contact t {
+	font-weight: 700;
+}
+
+#contact i {
+	padding-right: 8px;
+	color: #1abc9c;
+}
