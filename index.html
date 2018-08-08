@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-	<meta charset="UTF-8">
+	<meta name="viewport" width="device-width, initial-scale=1">
 	<title>Portfolio</title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -10,7 +9,7 @@
 	<link rel="stylesheet" href="main.css" type="text/css">
 </head>
 <body>
-	<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar navbar-inverse navbar-fixed-top" id="nb">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -18,7 +17,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">VARUN SAHIL</a>
+                <a class="navbar-brand" href="#"><b>VARUN &nbsp; SAHIL</b></a>
                 
             </div>
             <div class="navbar-collapse collapse">
@@ -39,11 +38,11 @@
         <div class="container-fluid">
             <div class="row centered">
                 <div id="header">
-                    <h1><strong> VARUN SAHIL </strong>          
+                    <h1 class="shadows"><strong> VARUN &nbsp; SAHIL </strong>          
                      
                     </h1>
-                     <br /> <br /> <br />
-                    <h2> Coder | Web Developer</h2>
+                     <br /> <br /> <br /><br><br><br><br><br><br><br>
+                    <h2 class="shadows"> Programmer | Web Developer</h2>
                      <br><br><br>
                   <a href="#intro">  <i class="fa fa-chevron-circle-down fa-5x" aria-hidden="true" style="color: white;"></i> </a>
                 </div>
@@ -59,14 +58,17 @@
 		<div class="container">
 			<div class="row">
 				
-				<div class="col-lg-2 col-lg-offset-0">
+				<div class="">
 					<h3>ABOUT</h3>
+				</div><hr>
+				<div class="col-lg-6 s">
+					<p>I am pursuing engineering from Netaji Subhash Institute of technology in IT department and currently studying in 4th year. I passed my 12th in 2015 from CBSE. Some of my hobbies include gaming, and playing guitar. I am a team player, disciplined and always ready to expand my horizon of knowledge.</p>
 				</div>
-				<div class="col-lg-6">
-					<p><font size="+2">I am pursuing engineering from Netaji Subhash Institute of technology in IT department and currently studying in 2nd year. I passed my 12th in 2015 from CBSE. I have no such experience of working in an internship so far. I have worked in college fests in the department of event management and marketing. I am interested in Web development. I possess good coding skills, am a team player, disciplined and willing to expand my horizon of knowledge.</font></p>
+				<div class="col-lg-2">
+					
 				</div>
-				<div class="col-lg-4">
-					<img src="profile.jpg" class="img-circle img-responsive" style="width: 175%; height: 175%">
+				<div class="col-lg-3" id="pic">
+					<img src="profile.jpg" class="img-circle" style="width: 125%; height: 125%">
 				</div>
 				
 			</div>
@@ -76,38 +78,30 @@
 	<!-- Education -->
 
 	<div id="education">
-		<div class="container desc">
+		<div class="container ">
 			<div class="row">
 
 				
-				<div class="col-lg-2 col-lg-offset-0">
+				<div class="">
 				<br>
 				<h3><strong>EDUCATION</strong></h3>
-				</div>
+				</div><hr id="line" class="line">
 				<div class="col-lg-6">
-					
-					<br><br>
-					<p>B.E (IT)<br/>
+					<p><b>B.E (IT)</b><br/>
 						Netaji Institute of Technology <br/>
 						<i>4 Years Course</i>
 					</p>
 					<br><br>
-				</div>
-				<br><br>
-				<div class="col-lg-3">
-					<p><sm>2nd Year</sm><br/>
-					<imp><sm>IN PROGRESS</sm></imp>
-					</p>
-					
-				</div>
-				
-				<div class="col-lg-6 col-lg-offset-2">
-					<p>12th (CBSE)<br/>
+					<p><b>12th (CBSE)</b><br/>
 						A.S.N Sr. Sec. School<br/>
 					</p>
 				</div>
 				<div class="col-lg-3">
-					<p><sm>passed in 2015</sm></p>
+					<p><sm>4th Year</sm><br/>
+					<imp><sm>IN PROGRESS</sm></imp>
+					</p><br><br><br>
+					<p><sm>Passed in 2015</sm></p>
+					
 				</div>
 
 			</div>
@@ -120,33 +114,31 @@
 		<div class="container">
 			<div class="row">
 				
-				<div class="col-lg-2 col-lg-offset-0">
-					<h3>SKILLS</h3>
+				<div class="">
+					<h3>SKILLS</h3><hr>
 				</div>
-				<div class="col-lg-6">
-					<font size="+2">
-					<p>C<br/>
-					   C++<br>
-					   HTML<br>
-					   CSS<br>
-					   JAVASCRIPT<br>
-					   JQUERY<br>
-					   BOOTSTRAP<br>
+				<div class="col-sm-6">
+
+					<ul list-style-type="disc">
+						<li>C</li>
+						<li>C++</li>
+						<li>ALGORITHMS</li>
+						<li>DATA STRUCTURES</li>
+						<li>LINUX</li>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JAVASCRIPT</li>
+						<li>BOOTSTRAP</li>
+						<li>NodeJS</li>
+						<li>MySQL</li>
+						<li>MongoDB</li>
+						<li>Git</li>
+						<li>OS</li>
+						<li>Networking</li>
 					</p>
-					
+					</ol>
 				</div>
 				
-				<div class="col-lg-3">
-					<p>Advanced<br/>
-					   Advanced<br>
-					   Intermediate<br>
-					   Intermediate<br>
-					   Beginner<br>
-					   Beginner<br>
-					   Beginner<br>
-					</p>
-					</font>
-				</div>
 				
 			</div>
 		</div>
@@ -155,20 +147,31 @@
 	<!-- work-->
 
 	<div id="work">
-		<div class="container desc">
+		<div class="container">
 		<div class="row">
-				<div class="col-lg-2 col-lg-offset-0">
-					<h3>PORTFOLIO</h3>
+				<div class="">
+					<h3><b>PORTFOLIO</b></h3>
+					<hr class="line">
 				</div>
 				<div class="col-lg-6">
 					<br><br>
-					<p><img class="img-responsive" src="clock.png" alt=""></p>
+					<a href="https://fusionconclave.herokuapp.com/" target="_blank"><p><img class="img-responsive" src="Screenshot (52).png" alt=""></p></a>
+
+					<br><br>
+					<a href="https://github.com/varunsahil10/Clock" target="_blank"><p><img class="img-responsive" src="clock.png" alt=""></p></a>
 				</div>
 				<div class="col-lg-3">
 					<br><br>
-					<p><strong>CLOCK</strong></p>
-					<p>And rest are uploaded on github. Do check <a href="https://github.com/varunsahil10">here</a>.</p>
+					<a href="https://fusionconclave.herokuapp.com/" target="_blank"><p><strong>Fusion Conclave</strong></p></a>
+					<p>Web Development intership<p>
+					<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+					<a href="https://github.com/varunsahil10/Clock" target="_blank" id="cl"><p id="text2"><strong>CLOCK</strong></p></a>
+					<p>Analog Clock<br><br>Converts digital system time into analog display.</p>
 
+				</div>
+				<div class="centered col-lg-11">
+					<br><br>
+					<p>Do check other projects done by me <a href="https://github.com/varunsahil10">here</a>.</p>
 				</div>
 		
 		</div>
@@ -207,11 +210,6 @@
 		</div>
 	</div>
 	
-	<div id="c">
-		<div class="container">
-			<p>Created by <a href="#">VARUN SAHIL</a></p>
-		
-		</div>
-	</div>
+	
 </body>
 </html>
